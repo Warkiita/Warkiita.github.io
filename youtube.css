@@ -4,3 +4,52 @@ body {
     background-color:;
 
 }
+.logocabecera{
+position:absolute;
+font-size: 20px;
+
+}
+.fa-brands.fa-youtube{
+    color: red;
+    font-size: 26px;
+}
+.menu-principal{
+    color:#ccc;
+    margin: 15px;
+    
+}
+
+
+.busqueda { 
+  position: relative;
+    left: 800px;
+}
+.buscador{
+    Width: 300px; 
+    font-size: 15px;
+    
+}
+
+.botones-derecha{
+    position: fixed;
+    left: 89%;
+    top: 30px;
+}
+
+.contenedor{
+    margin: 10px;
+    color: #ccc;
+    font-size: 30px;
+    
+}
+
+.avatar{
+    width: 100px;
+    border-radius: 500px;
+    position: fixed;
+    left: 95%;
+    top: 15px;
+}
+hr{
+    
+}
