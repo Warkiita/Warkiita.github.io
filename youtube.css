@@ -1,7 +1,7 @@
 
 body {
    
-    background-color: #282424;
+    background-color: #110f0f;
 
 }
 
@@ -20,7 +20,9 @@ body {
     top: -0px;
     z-index: 1;
 
-    background-color: aqua;
+    left: 0px;
+
+    background-color: #110f0f;
 }
 
 
@@ -36,7 +38,7 @@ body {
 .Name-cabecera{
     position: fixed;
     top: 9px;
-    color: black;
+    color: white;
 }
 
 .buscador-cabecera{
@@ -50,7 +52,7 @@ body {
     text-align: center;
     
     
-    background-color: blueviolet;
+    background-color:  #110f0f;
 }
 
 .buscador{
@@ -75,7 +77,7 @@ body {
     top: 143px;
     color: #ccc;
     
-    background-color: red;
+    background-color:  #110f0f;
     
     font-size: 32px;
 }
@@ -89,7 +91,7 @@ body {
     text-align: center;
     z-index: 20;
 
-background-color: burlywood;
+background-color: #110f0f;
 }
 
 .contenido{
@@ -100,16 +102,14 @@ background-color: burlywood;
     bottom: 790px;
     left: 270px;
     
-    background-color: orange;
+    background-color: #3b3636;
 
 }
 img{
  height: 348px;
  width: 348px;
 
- 
-
- margin: 10px;
+  margin: 10px;
 }
 
 span{
