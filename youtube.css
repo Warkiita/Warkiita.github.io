@@ -1,7 +1,7 @@
 
 body {
    
-    background-color:;
+    background-color: #282424;
 
 }
 
@@ -14,9 +14,11 @@ body {
     
 }
 .header{
+    position: fixed;
     align-items: left;
-    position: relative;
+    width: 100%;
     top: -0px;
+    z-index: 1;
 
     background-color: aqua;
 }
@@ -27,26 +29,34 @@ body {
     font-size: 40px;
 }
 .fa-brands.fa-youtube{
-    position: relative;
-    left: 40px;
+    position: fixed;
+    top: 30px;
+    left: 60px;
 }
 .Name-cabecera{
+    position: fixed;
+    top: 9px;
     color: black;
 }
 
 .buscador-cabecera{
-    position: relative;
+    position: fixed;
     width: 500px;
-    right: 1850px;
-    height: 35px;
-    top: 10px;
+    right: 675px;
+    height: 45px;
+    z-index: 10;
+    top: 21px;
+    
     text-align: center;
     
     
     background-color: blueviolet;
 }
 
-
+.buscador{
+    width: 25em;
+    height: 28px;
+}
 
 .menu-principal{
     position: relative;
@@ -58,10 +68,11 @@ body {
 
 
 .menu-izquierdo{
-    position: relative;
+    position: fixed;
     width: 250px;
-    height: 800px;
-    top: 25px;
+    height: 900px;
+    bottom: 0px;
+    top: 143px;
     color: #ccc;
     
     background-color: red;
@@ -70,29 +81,39 @@ body {
 }
 
 .botones-derecha{
-    position: relative;
-    right: 3360px;
-    width: 100px;
-    height: 40px;
-    top: 10px;
+    position: fixed;
+    right: 30px;
+    width: 150px;
+    height: 35px;
+    top: 30px;
     text-align: center;
-    
+    z-index: 20;
+
 background-color: burlywood;
 }
 
 .contenido{
     position: relative;
     width: 85%;
-    height: 900px;
+    height: 7100px;
+    top: 127px;
     bottom: 790px;
     left: 270px;
     
     background-color: orange;
 
 }
+img{
+ height: 348px;
+ width: 348px;
+
+ 
+
+ margin: 10px;
+}
 
 span{
-    margin: 20px;
+    margin: 17px;
 }
 
 
