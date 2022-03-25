@@ -70,9 +70,9 @@ body {
 
 
 .menu-izquierdo{
-    position: fixed;
+    position: relative;
     width: 250px;
-    height: 900px;
+    height: 2000px;
     bottom: 0px;
     top: 143px;
     color: #ccc;
@@ -80,6 +80,13 @@ body {
     background-color:  #110f0f;
     
     font-size: 32px;
+}
+
+.suscripciones-logo{
+    height: 70px;
+    width: 70px;
+
+    border-radius: 50px;
 }
 
 .botones-derecha{
@@ -95,19 +102,36 @@ background-color: #110f0f;
 }
 
 .contenido{
-    position: relative;
-    width: 85%;
-    height: 7100px;
+    position: fixed;
+    width: 82%;
+    height: 1945px;
     top: 127px;
     bottom: 790px;
     left: 270px;
     
+    border-radius: 15px;
+    
     background-color: #3b3636;
 
 }
+
+.contenido::-webkit-scrollbar{
+    width: 80px;
+background: #110f0f;
+z-index: 20;
+}
+
+.contenido::-webkit-scrollbar-thumb{
+background: red;
+
+}
+
 img{
- height: 348px;
- width: 348px;
+    position: relative;
+ height: 295px;
+ width: 295px;
+ left: 10px;
+ top: 20px;
 
   margin: 10px;
 }
