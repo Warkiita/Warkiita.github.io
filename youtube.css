@@ -4,52 +4,73 @@ body {
     background-color: #110f0f;
 
 }
-
+                                         
+                                          /* HEADER */
 .header{
+    grid-area: header;
+    padding: 0 10px;
     display: grid;
-    grid-template-columns: 60px 40px 40px;
-    grid-template-rows: 100px;
-    grid-gap: 140%;
-    grid-template-areas: "logocabecera busqueda botones-derecha";
-    
+    grid-template-columns: 275px 980px 198px;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 30px;
+    grid-template-areas: "header busueda logos-derecha";
+
 }
+
 .header{
     position: fixed;
     align-items: left;
-    width: 100%;
+    width: 99%;
+    height: 14%;
     top: -0px;
-    z-index: 1;
+   z-index: 20;
+    grid-area: header;
+    align-items: center;
 
+    
     left: 0px;
 
     background-color: #110f0f;
 }
 
 
+
 .fa-brands.fa-youtube{
     color: red;
     font-size: 40px;
+    
+   
+   
 }
 .fa-brands.fa-youtube{
     position: fixed;
     top: 30px;
     left: 60px;
+    
 }
 .Name-cabecera{
-    position: fixed;
-    top: 9px;
+    position: relative;
+    top: -82px;
+    left: 60px;
     color: white;
+    
+    
 }
-
+.logocabecera{
+    position: fixed;
+    top: 0px;
+}
 .buscador-cabecera{
     position: fixed;
     width: 500px;
-    right: 675px;
+    right: 475px;
     height: 45px;
     z-index: 10;
     top: 21px;
     
-    text-align: center;
+    display: flex;
+    align-items: center;
     
     
     background-color:  #110f0f;
@@ -58,56 +79,119 @@ body {
 .buscador{
     width: 25em;
     height: 28px;
+
 }
+
+
+.botones-derecha{
+    position: fixed;
+    right: 120px;
+    width: 80px;
+    height: 35px;
+    top: 30px;
+    
+    display: flex;
+    align-items: center;
+
+    
+background-color: #110f0f;
+}
+
+.logo-derecho{
+    position: relative;
+    top: 0px;
+    left: -1px;
+    width: 50px;
+    height: 50px;
+
+    border-radius: 70px;
+}
+
+
+
+                                           /* MENU IZQUIERDO */
+
 
 .menu-principal{
     position: relative;
     top: 35px;
 
+
    font-size: 20px;
 }
-
-
-
 .menu-izquierdo{
-    position: relative;
-    width: 250px;
-    height: 2000px;
+    position: fixed;
+    width: 265px;
+    height: 790px;
     bottom: 0px;
-    top: 143px;
+    top: 135px;
+
+    overflow-y: scroll;
+
     color: #ccc;
-    
     background-color:  #110f0f;
-    
     font-size: 32px;
 }
 
+
+a{
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover{
+    background: black;
+}
+
+
+.iconos{
+    font-size: 25px;
+}
+
+span{
+    font-size: 18px;
+    margin: 40px;
+    
+    
+}
+
+.letra-subs{
+position: relative;
+top: -80px;
+left: 90px;
+
+
+}
+
+.logos-menu{
+   
+
+}
+
 .suscripciones-logo{
-    height: 70px;
+    position: relative;
     width: 70px;
+    height: 70px;
+    left: -10px;
+
 
     border-radius: 50px;
+
 }
 
-.botones-derecha{
-    position: fixed;
-    right: 30px;
-    width: 150px;
-    height: 35px;
-    top: 30px;
-    text-align: center;
-    z-index: 20;
 
-background-color: #110f0f;
-}
 
+                                
+                                         /* CONTENIDO */
 .contenido{
-    position: fixed;
+    position: relative;
     width: 82%;
     height: 1945px;
     top: 127px;
     bottom: 790px;
-    left: 270px;
+    left: 280px;
     
     border-radius: 15px;
     
@@ -115,16 +199,7 @@ background-color: #110f0f;
 
 }
 
-.contenido::-webkit-scrollbar{
-    width: 80px;
-background: #110f0f;
-z-index: 20;
-}
 
-.contenido::-webkit-scrollbar-thumb{
-background: red;
-
-}
 
 img{
     position: relative;
@@ -136,9 +211,6 @@ img{
   margin: 10px;
 }
 
-span{
-    margin: 17px;
-}
 
 
 
